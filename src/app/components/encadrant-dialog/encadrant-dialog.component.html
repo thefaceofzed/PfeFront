@@ -1,0 +1,33 @@
+<h1 mat-dialog-title>Ajouter/Modifier Encadrant</h1>
+<div mat-dialog-content  class="mat-typography">
+  <mat-form-field>
+    <mat-label>Nom de l'encadrant</mat-label>
+    <input matInput [(ngModel)]="encadrant.nom" name="nom">
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <mat-label>Prénom de l'encadrant</mat-label>
+    <input matInput [(ngModel)]="encadrant.prenom" name="prenom">
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <mat-label>Specialite de l'encadrant</mat-label>
+    <input matInput [(ngModel)]="encadrant.specialite" name="specialite">
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <mat-label>Type de l'encadrant</mat-label>
+    <input matInput [(ngModel)]="encadrant.type" name="type">
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <mat-label>Téléphone de l'encadrant</mat-label>
+    <input matInput [(ngModel)]="encadrant.tel" name="tel">
+  </mat-form-field>
+</div>
+<br>
+<div mat-dialog-actions align="end">
+  <button mat-button (click)="saveEncadrant()">Enregistrer</button>
+  <button mat-button (click)="closeDialog()">Annuler</button>
+</div>
+

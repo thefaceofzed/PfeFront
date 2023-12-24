@@ -1,0 +1,8 @@
+/* styles.css or styles.scss */
+
+body {
+    background-color: #f0f0f0; /* Use the desired shade of grey */
+    margin: 0; /* Remove default body margin */
+    font-family: 'Arial', sans-serif; /* Set a default font if needed */
+  }
+  

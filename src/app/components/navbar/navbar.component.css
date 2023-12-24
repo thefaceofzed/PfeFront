@@ -1,0 +1,75 @@
+/* Add these styles to your global styles file (styles.scss or styles.css) */
+
+.custom-toolbar {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow for elevation */
+
+  .toolbar-title {
+    font-size: 1.5rem;
+  }
+
+  .toolbar-item-spacer {
+    flex: 1 1 auto;
+  }
+
+  .dark-menu {
+    background-color: #333; /* Dark background color for the menu */
+    color: #fff; /* Light text color for the menu items */
+  }
+
+  .hover-effect {
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .hover-effect:hover {
+    background-color: #fff; /* Change background color to white on hover */
+    color: #333; /* Change text color to dark on hover */
+  }
+}
+
+.app-container {
+  height: 100vh; /* Full height of the viewport */
+}
+
+.app-sidenav {
+  width: 230px;
+}
+
+.dark-nav-list,
+.dark-list-item,
+.dark-expansion-panel,
+.dark-expansion-header {
+  background-color: #444; /* Dark background color for the sidenav items */
+  color: #fff; /* Light text color for the sidenav items */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow for elevation */
+}
+
+.dark-expansion-panel {
+  margin: 5px 0;
+}
+
+.dark-expansion-header {
+  padding: 10px;
+}
+
+.dark-list-item {
+  padding: 10px;
+}
+
+.app-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Apply hover effect to appropriate elements */
+.hover-effect {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+  background-color: #fff; /* Change background color to white on hover */
+  color: #333; /* Change text color to dark on hover */
+}

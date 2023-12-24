@@ -1,0 +1,32 @@
+<h1 mat-dialog-title>Ajouter/Modifier Étudiant</h1>
+<div mat-dialog-content  class="mat-typography">
+  <mat-form-field>
+    <mat-label>Nom de l'étudiant</mat-label>
+    <input matInput [(ngModel)]="etudiant.nom" name="nom">
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <mat-label>Prénom de l'étudiant</mat-label>
+    <input matInput [(ngModel)]="etudiant.prenom" name="prenom">
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <mat-label>Email de l'étudiant</mat-label>
+    <input matInput [(ngModel)]="etudiant.email" name="email">
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <mat-label>Filière de l'étudiant</mat-label>
+    <input matInput [(ngModel)]="etudiant.filiere" name="filiere">
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <mat-label>Téléphone de l'étudiant</mat-label>
+    <input matInput [(ngModel)]="etudiant.tel" name="tel">
+  </mat-form-field>
+</div>
+<br>
+<div mat-dialog-actions align="end">
+  <button mat-button (click)="saveEtudiant()">Enregistrer</button>
+  <button mat-button (click)="closeDialog()">Annuler</button>
+</div>
